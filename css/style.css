@@ -1,0 +1,54 @@
+@import url(normalize.css);
+@import url(fonts.css);
+
+@import url(blocks/header.css);
+@import url(blocks/main.css);
+@import url(blocks/goods.css);
+@import url(blocks/delivery.css);
+@import url(blocks/contacts.css);
+@import url(blocks/footer.css);
+
+
+* {
+    box-sizing: border-box;
+    color: black;
+} 
+
+
+.container {
+    max-width: 1422px;
+    margin: 0 auto;
+}
+
+h1, h2, h3, p {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    outline: none;
+}
+
+input {
+    outline: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+button {
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+li {
+    color: white;
+    list-style-type: none; /* Убираем маркеры */
+}
+
+ul {
+    margin-left: 0; /* Отступ слева в браузере IE и Opera */
+    padding-left: 0; /* Отступ слева в браузере Firefox, Safari, Chrome */
+}
